@@ -13,3 +13,9 @@ function multiply(x, y) {
 function divide(x, y) {
   return x / y;
 }
+
+function operate(x, y, operator) {
+  return operator(x, y);
+}
+
+operate(2, 2, add);
